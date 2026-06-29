@@ -37,6 +37,7 @@ This project predicts whether a patient is at risk of heart disease using variou
 | Decision Tree | 100.00% |
 | Random Forest | 100.00% |
 
+
 ## Top Important Features
 
 - Age
@@ -69,8 +70,10 @@ README.md
 ```
 
 ## Note
-
 Tree-based models achieved perfect performance on this dataset, likely due to strong predictive relationships among key health indicators.
+
+Decision Tree and Random Forest achieved 100% accuracy on this dataset. Feature importance analysis revealed that Age, Cholesterol_Total, Hypertension, Diabetes, and Previous_Heart_Attack were the dominant predictors. The Decision Tree reached perfect classification with a depth of only 5, indicating that the dataset contains strong and easily separable patterns for tree-based models.
+
 
 ## Author
 
